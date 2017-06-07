@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+
+<ui:composition
+	template="/WEB-INF/facelets/templates/defaultTemplate.xhtml">
+	<ui:define name="title">
+		<h:outputText value="index" />
+	</ui:define>
+	<ui:define name="menu">
+		<!-- Top Navigation -->
+		<nav class="background-white background-primary-hightlight">
+			<div>
+				<a href="" align="center"><img src="resources/img/logo-image.png" alt=""/></a>
+			</div>
+			<div class="line">
+
+				<div class="s-12 l-2">
+					<a href="index.html" class="logo"><img
+						src="resources/img/SISCOPI-logo.png" alt=""/></a>
+				</div>
+				<div class="top-nav s-12 l-10">
+					<p class="nav-text"></p>
+					<ul class="right chevron">
+						<li><a href="index.html">#{msg['general.menu.inicio.titulo']}</a></li>
+						<li><a>Propuestas</a>
+							<ul>
+								<li><a href="products.html">Banco</a></li>
+								<li><a href="propuestaNoRegistrado.html">Registro</a></li>
+							</ul>
+						</li>
+						<li><a>Formatos</a>
+							<ul>
+								<li><a>Preregistro</a>
+									<ul>
+										<li><a>Service 1 A</a></li>
+										<li><a>Service 1 B</a></li>
+									</ul></li>
+								<li><a>Etapa 1</a></li>
+							</ul></li>
+						<li><a>Acerca De</a>
+							<ul>
+								<li><a href="about.html">Objetivos</a></li>
+								<li><a>Misión</a></li>
+								<li><a>Visión</a></li>
+								<li><a>Valores</a></li>
+								<li><a>Organigrama</a></li>
+							</ul></li>
+						<li><a href="noticias.html">Noticias</a></li>
+						<li><a href="contact.html">Contacto</a></li>
+						<li><a href="#loginmodal" id="modaltrigger"
+							class="background-primary">Iniciar Sesión</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="right nav2">
+				<a href="#altaUsuario">Solicitar acceso (nuevo usuario)</a>
+			</div>
+
+		</nav>
+
+
+		<div id="loginmodal" style="display: none;" class="background-login">
+			<a href="#" class="close"><img src="resources/img/close_pop.png"
+				class="btn_close" title="Close Window" alt="Close" /></a>
+			<h2 class="text-uppercase text-strong margin-bottom-30">Login</h2>
+			<form class="customform2" id="loginform">
+
+				<div class="margin">
+					<div class="s-12 m-12 l-6">
+						<input name="email" class="required email border-radius"
+							placeholder="e-mail o username" title="e-mail o username"
+							type="text" id="username" />
+					</div>
+					<div class="s-12 m-12 l-6">
+						<input name="name" class="name border-radius"
+							placeholder="Tu contraseña" title="Tu contraseña" type="password" />
+					</div>
+				</div>
+				<br></br>
+				<div class="s-12 m-12 l-4">
+					<button
+						class="submit-form button background-primary border-radius text-white"
+						type="submit">Iniciar</button>
+				</div>
+				<br></br>
+				<p>
+					<a class="forgot" href="#">¿Olvidó su password?</a>
+				</p>
+
+
+			</form>
+		</div>
+	</ui:define>
+	<ui:define name="content">
+		<!-- MAIN -->
+		<main role="main"> <!-- Main Carousel -->
+		<section class="section background-dark">
+			<div class="line">
+				<div
+					class="carousel-fade-transition owl-carousel carousel-main carousel-nav-white carousel-wide-arrows">
+					<div class="item">
+						<div class="s-12 center">
+							<img src="resources/img/01-boxed.jpg" alt="" />
+							<div class="carousel-content">
+								<div class="padding-2x">
+									<div class="s-12 m-12 l-8">
+										<p
+											class="text-white text-s-size-20 text-m-size-40 text-l-size-60 margin-bottom-40 text-thin text-line-height-1">Prospera
+											is the New Amazing HTML5 Template</p>
+										<p class="text-white text-size-16 margin-bottom-40">
+											Duis autem vel eum iriure dolor in hendrerit in vulputate
+											velit<br> esse molestie consequat, vel illum dolore eu
+												feugiat nulla facilisis</br>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="s-12 center">
+							<img src="resources/img/02-boxed.jpg" alt="" />
+							<div class="carousel-content">
+								<div class="padding-2x">
+									<div class="s-12 m-12 l-8">
+										<p
+											class="text-white text-s-size-20 text-m-size-40 text-l-size-60 margin-bottom-40 text-thin text-line-height-1">With
+											Fully Responsive Components</p>
+										<p class="text-white text-size-16 margin-bottom-30">Duis
+											autem vel eum iriure dolor in hendrerit in vulputate velit
+											esse molestie consequat, vel illum dolore eu feugiat nulla
+											facilisis</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="content" style="display: none">
+			<div>Hola</div>
+		</section>
+
+		<!-- Section 1 -->
+		<section class="section background-white">
+			<div class="line">
+				<div class="margin">
+					<div class="s-12 m-12 l-4 margin-m-bottom">
+						<img class="margin-bottom" src="resources/img/img-01.jpg" alt="" />
+						<h2 class="text-thin">Clean Design</h2>
+						<p>Duis autem vel eum iriure dolor in hendrerit in vulputate
+							velit esse molestie consequat.</p>
+						<a class="text-more-info text-primary-hover" href="/">Read
+							more</a>
+					</div>
+					<div class="s-12 m-12 l-4 margin-m-bottom">
+						<img class="margin-bottom" src="resources/img/img-02.jpg" alt="" />
+						<h2 class="text-thin">Valid code</h2>
+						<p>Duis autem vel eum iriure dolor in hendrerit in vulputate
+							velit esse molestie consequat.</p>
+						<a class="text-more-info text-primary-hover" href="/">Read
+							more</a>
+					</div>
+					<div class="s-12 m-12 l-4 margin-m-bottom">
+						<img class="margin-bottom" src="resources/img/img-03.jpg" alt="" />
+						<h2 class="text-thin">Totally free</h2>
+						<p>Duis autem vel eum iriure dolor in hendrerit in vulputate
+							velit esse molestie consequat.</p>
+						<a class="text-more-info text-primary-hover" href="/">Read
+							more</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Section 2 -->
+		<section class="section background-primary text-center">
+			<div class="line">
+				<div class="s-12 m-10 l-8 center">
+					<h2 class="headline text-thin text-s-size-30">We are Web
+						Design Heroes</h2>
+					<p class="text-size-20">Duis autem vel eum iriure dolor in
+						hendrerit in vulputate velit esse molestie consequat, vel illum
+						dolore eu feugiat nulla facilisis</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- Section 3 -->
+		<section class="section background-white">
+			<div class="full-width text-center">
+				<img class="center margin-bottom-30" style="margin-top: -210px;"
+					src="resources/img/bio.png" alt="" />
+				<div class="line">
+					<h2 class="headline text-thin text-s-size-30">
+						Fully <span class="text-primary">Responsive</span> HTML5 Template
+					</h2>
+					<p class="text-size-20 text-s-size-16 text-thin">Duis autem vel
+						eum iriure dolor in hendrerit in vulputate velit esse molestie
+						consequat, vel illum dolore eu feugiat nulla facilisis. Duis autem
+						vel eum iriure dolor in hendrerit in vulputate velit esse molestie
+						consequat, vel illum dolore eu feugiat nulla facilisis</p>
+					<i
+						class="icon-more_node_links icon2x text-primary margin-top-bottom-10"></i>
+					<p class="text-size-20 text-s-size-16 text-thin text-primary">Try
+						resize your browser window</p>
+				</div>
+			</div>
+		</section>
+		<hr class="break margin-top-bottom-0" />
+
+		<!-- Section 4 -->
+		<section class="section background-white">
+			<div class="line">
+				<h2
+					class="text-thin headline text-center text-s-size-30 margin-bottom-50">
+					From Our <span class="text-primary">Blog</span>
+				</h2>
+				<div class="carousel-default owl-carousel carousel-wide-arrows">
+					<div class="item">
+						<div class="margin">
+							<div class="s-12 m-12 l-6">
+								<div class="image-border-radius margin-m-bottom">
+									<div class="margin">
+										<div class="s-12 m-12 l-4 margin-m-bottom">
+											<a class="image-hover-zoom" href="/"><img
+												src="resources/img/blog-05.jpg" alt="" /></a>
+										</div>
+										<div class="s-12 m-12 l-8 margin-m-bottom">
+											<h3>
+												<a class="text-dark text-primary-hover" href="/">Lorem
+													Ipsum Dolor sit Amet</a>
+											</h3>
+											<p>Duis autem vel eum iriure dolor in hendrerit in
+												vulputate velit esse molestie consequat.</p>
+											<a class="text-more-info text-primary-hover" href="/">Read
+												more</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="s-12 m-12 l-6">
+								<div class="image-border-radius">
+									<div class="margin">
+										<div class="s-12 m-12 l-4 margin-m-bottom">
+											<a class="image-hover-zoom" href="/"><img
+												src="resources/img/blog-03.jpg" alt="" /></a>
+										</div>
+										<div class="s-12 m-12 l-8">
+											<h3>
+												<a class="text-dark text-primary-hover" href="/">Lorem
+													Ipsum Dolor sit Amet</a>
+											</h3>
+											<p>Duis autem vel eum iriure dolor in hendrerit in
+												vulputate velit esse molestie consequat.</p>
+											<a class="text-more-info text-primary-hover" href="/">Read
+												more</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="margin">
+							<div class="s-12 m-12 l-6">
+								<div class="image-border-radius margin-m-bottom">
+									<div class="margin">
+										<div class="s-12 m-12 l-4 margin-m-bottom">
+											<a class="image-hover-zoom" href="/"><img
+												src="resources/img/blog-04.jpg" alt="" /></a>
+										</div>
+										<div class="s-12 m-12 l-8 margin-m-bottom">
+											<h3>
+												<a class="text-dark text-primary-hover" href="/">Lorem
+													Ipsum Dolor sit Amet</a>
+											</h3>
+											<p>Duis autem vel eum iriure dolor in hendrerit in
+												vulputate velit esse molestie consequat.</p>
+											<a class="text-more-info text-primary-hover" href="/">Read
+												more</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="s-12 m-12 l-6">
+								<div class="image-border-radius">
+									<div class="margin">
+										<div class="s-12 m-12 l-4 margin-m-bottom">
+											<a class="image-hover-zoom" href="/"><img
+												src="resources/img/blog-02.jpg" alt="" /></a>
+										</div>
+										<div class="s-12 m-12 l-8">
+											<h3>
+												<a class="text-dark text-primary-hover" href="/">Lorem
+													Ipsum Dolor sit Amet</a>
+											</h3>
+											<p>Duis autem vel eum iriure dolor in hendrerit in
+												vulputate velit esse molestie consequat.</p>
+											<a class="text-more-info text-primary-hover" href="/">Read
+												more</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="margin">
+							<div class="s-12 m-12 l-6">
+								<div class="image-border-radius margin-m-bottom">
+									<div class="margin">
+										<div class="s-12 m-12 l-4 margin-m-bottom">
+											<a class="image-hover-zoom" href="/"><img
+												src="resources/img/blog-01.jpg" alt="" /></a>
+										</div>
+										<div class="s-12 m-12 l-8 margin-m-bottom">
+											<h3>
+												<a class="text-dark text-primary-hover" href="/">Lorem
+													Ipsum Dolor sit Amet</a>
+											</h3>
+											<p>Duis autem vel eum iriure dolor in hendrerit in
+												vulputate velit esse molestie consequat.</p>
+											<a class="text-more-info text-primary-hover" href="/">Read
+												more</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="s-12 m-12 l-6">
+								<div class="image-border-radius">
+									<div class="margin">
+										<div class="s-12 m-12 l-4 margin-m-bottom">
+											<a class="image-hover-zoom" href="/"><img
+												src="resources/img/blog-06.jpg" alt="" /></a>
+										</div>
+										<div class="s-12 m-12 l-8">
+											<h3>
+												<a class="text-dark text-primary-hover" href="/">Lorem
+													Ipsum Dolor sit Amet</a>
+											</h3>
+											<p>Duis autem vel eum iriure dolor in hendrerit in
+												vulputate velit esse molestie consequat.</p>
+											<a class="text-more-info text-primary-hover" href="/">Read
+												more</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		</main>
+
+
+		<h:form prependId="false" id="form">
+
+			<h:outputLink value="javascript:void(0)" onclick="PF('dlg').show();"
+				title="login">Login
+<!-- 				<p:graphicImage name="/demo/images/login.png" /> -->
+			</h:outputLink>
+
+			<!-- 			<p:growl id="growl" sticky="true" showDetail="true" life="3000" /> -->
+			<p:messages id="growl" showDetail="true" autoUpdate="true"
+				closable="true" />
+
+			<p:dialog header="Login" widgetVar="dlg" resizable="false">
+				<h:panelGrid columns="2" cellpadding="5">
+					<h:outputLabel for="username" value="Username:" />
+					<p:inputText id="username" value="#{userLoginView.username}"
+						required="true" label="username" />
+
+					<h:outputLabel for="password" value="Password:" />
+					<p:password id="password" value="#{userLoginView.password}"
+						required="true" label="password" />
+
+
+					<p:commandButton value="Login" update="growl"
+						actionListener="#{userLoginView.login}"
+						oncomplete="handleLoginRequest(xhr, status, args)" />
+
+				</h:panelGrid>
+			</p:dialog>
+		</h:form>
+
+
+	</ui:define>
+
+</ui:composition>
+<script type="text/javascript">
+	function handleLoginRequest(xhr, status, args) {
+		if (args.validationFailed || !args.loggedIn) {
+			PF('dlg').jq.effect("shake", {
+				times : 5
+			}, 100);
+		} else {
+			PF('dlg').hide();
+			$('#loginLink').fadeOut();
+		}
+	}
+</script>
+</html>

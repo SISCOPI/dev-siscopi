@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core">
+<h:head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+<h:outputStylesheet name="css/components.css"/>
+<h:outputStylesheet name="css/icons.css"/>
+<h:outputStylesheet name="css/responsee.css"/>
+<h:outputStylesheet name="owl-carousel/owl.carousel.css"/>
+<h:outputStylesheet name="owl-carousel/owl.theme.css"/>
+<h:outputStylesheet name="css/template-style.css"/>
+<!-- <h:outputScript name="js/jquery-3.2.0.js"></h:outputScript> -->
+<h:outputScript name="js/jquery.leanModal.min.js"></h:outputScript>
+<h:outputScript name="js/modal.js"></h:outputScript>
+<title><ui:insert name="title"/></title>
+</h:head>
+<h:body>
+	<div id="layout">
+		<div id="header">
+		<ui:include src="encabezado.xhtml"/>
+		<ui:insert name="menu">
+		</ui:insert>
+		</div>
+		<div id="content">
+			<ui:insert name="content">
+				<span>en construcción</span>
+			</ui:insert>
+		</div>
+		<div id="footer">
+			<ui:include src="footer.xhtml"/>
+		</div>
+	</div>
+</h:body>
+</html>
