@@ -46,7 +46,7 @@ public class loginController implements Serializable {
     public String controlLogin(){
         if(consulta.controlLogin(nickname, password)){
             HttpSession session = SessionUtils.getSession();
-            session.setAttribute("nickname",nickname);
+            session.setAttribute("nicknam",nickname);
             return "home";
         }
         RequestContext.getCurrentInstance().update("growl");
