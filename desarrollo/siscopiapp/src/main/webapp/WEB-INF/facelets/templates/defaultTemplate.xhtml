@@ -10,16 +10,17 @@
 <h:outputStylesheet name="css/components.css"/>
 <h:outputStylesheet name="css/icons.css"/>
 <h:outputStylesheet name="css/responsee.css"/>
-<h:outputStylesheet name="owl-carousel/owl.carousel.css"/>
-<h:outputStylesheet name="owl-carousel/owl.theme.css"/>
-<h:outputStylesheet name="assets/img/favicon.png?v=3"/>
-<h:outputStylesheet name="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+<!-- <h:outputStylesheet name="owl-carousel/owl.carousel.css"/> -->
+<!-- <h:outputStylesheet name="owl-carousel/owl.theme.css"/> -->
+<link rel="shortcut icon" href="assets/img/favicon.png?v=3"/>
+<!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/> -->
+<!-- <h:outputStylesheet href="https://fonts.googleapis.com/icon?family=Material+Icons"/> -->
 <h:outputStylesheet name="assets/css/preload.min.css"/>
 <h:outputStylesheet name="assets/css/plugins.min.css"/>
 <h:outputStylesheet name="assets/css/style.light-blue-500.min.css"/>
 
 <!-- <h:outputScript name="js/jquery-3.2.0.js"></h:outputScript> -->
-<h:outputScript name="js/jquery.leanModal.min.js"></h:outputScript>
+
 <h:outputScript name="js/modal.js"></h:outputScript>
 <h:outputScript name="assets/js/plugins.min.js"></h:outputScript>
 <h:outputScript name="assets/js/app.min.js"></h:outputScript>
@@ -32,8 +33,7 @@
 		<div id="header">
 		<ui:include src="encabezado.xhtml"/>
 		<ui:include src="menu.xhtml"/>
-		<ui:insert name="menu">
-		</ui:insert>
+
 		</div>
 		<div id="content">
 			<ui:insert name="content">
