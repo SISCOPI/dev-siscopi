@@ -11,401 +11,215 @@
 	</ui:define>
 	<ui:define name="menu">
 		<!-- Top Navigation -->
-		<nav class="background-white background-primary-hightlight">
-			<div>
-				<a href="" align="center"><img src="resources/img/logo-image.png" alt=""/></a>
-			</div>
-			<div class="line">
 
-				<div class="s-12 l-2">
-					<a href="index.html" class="logo"><img
-						src="resources/img/SISCOPI-logo.png" alt=""/></a>
-				</div>
-				<div class="top-nav s-12 l-10">
-					<p class="nav-text"></p>
-					<ul class="right chevron">
-						<li><a href="index.html">#{msg['general.menu.inicio.titulo']}</a></li>
-						<li><a>Propuestas</a>
-							<ul>
-								<li><a href="products.html">Banco</a></li>
-								<li><a href="propuestaNoRegistrado.html">Registro</a></li>
-							</ul>
-						</li>
-						<li><a>Formatos</a>
-							<ul>
-								<li><a>Preregistro</a>
-									<ul>
-										<li><a>Service 1 A</a></li>
-										<li><a>Service 1 B</a></li>
-									</ul></li>
-								<li><a>Etapa 1</a></li>
-							</ul></li>
-						<li><a>Acerca De</a>
-							<ul>
-								<li><a href="about.html">Objetivos</a></li>
-								<li><a>Misión</a></li>
-								<li><a>Visión</a></li>
-								<li><a>Valores</a></li>
-								<li><a>Organigrama</a></li>
-							</ul></li>
-						<li><a href="noticias.html">Noticias</a></li>
-						<li><a href="contact.html">Contacto</a></li>
-						<li><a href="#loginmodal" id="modaltrigger"
-							class="background-primary">Iniciar Sesión</a></li>
-					</ul>
-				</div>
-			</div>
-
-			<div class="right nav2">
-				<a href="#altaUsuario">Solicitar acceso (nuevo usuario)</a>
-			</div>
-
-		</nav>
-
-
-		<div id="loginmodal" style="display: none;" class="background-login">
-			<a href="#" class="close"><img src="resources/img/close_pop.png"
-				class="btn_close" title="Close Window" alt="Close" /></a>
-			<h2 class="text-uppercase text-strong margin-bottom-30">Login</h2>
-			<form class="customform2" id="loginform">
-
-				<div class="margin">
-					<div class="s-12 m-12 l-6">
-						<input name="email" class="required email border-radius"
-							placeholder="e-mail o username" title="e-mail o username"
-							type="text" id="username" />
-					</div>
-					<div class="s-12 m-12 l-6">
-						<input name="name" class="name border-radius"
-							placeholder="Tu contraseña" title="Tu contraseña" type="password" />
-					</div>
-				</div>
-				<br></br>
-				<div class="s-12 m-12 l-4">
-					<button
-						class="submit-form button background-primary border-radius text-white"
-						type="submit">Iniciar</button>
-				</div>
-				<br></br>
-				<p>
-					<a class="forgot" href="#">¿Olvidó su password?</a>
-				</p>
-
-
-			</form>
-		</div>
 	</ui:define>
 	<ui:define name="content">
-		<!-- MAIN -->
-		<main role="main"> <!-- Main Carousel -->
-		<section class="section background-dark">
-			<div class="line">
-				<div
-					class="carousel-fade-transition owl-carousel carousel-main carousel-nav-white carousel-wide-arrows">
-					<div class="item">
-						<div class="s-12 center">
-							<img src="resources/img/01-boxed.jpg" alt="" />
-							<div class="carousel-content">
-								<div class="padding-2x">
-									<div class="s-12 m-12 l-8">
-										<p
-											class="text-white text-s-size-20 text-m-size-40 text-l-size-60 margin-bottom-40 text-thin text-line-height-1">Prospera
-											is the New Amazing HTML5 Template</p>
-										<p class="text-white text-size-16 margin-bottom-40">
-											Duis autem vel eum iriure dolor in hendrerit in vulputate
-											velit<br> esse molestie consequat, vel illum dolore eu
-												feugiat nulla facilisis</br>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="s-12 center">
-							<img src="resources/img/02-boxed.jpg" alt="" />
-							<div class="carousel-content">
-								<div class="padding-2x">
-									<div class="s-12 m-12 l-8">
-										<p
-											class="text-white text-s-size-20 text-m-size-40 text-l-size-60 margin-bottom-40 text-thin text-line-height-1">With
-											Fully Responsive Components</p>
-										<p class="text-white text-size-16 margin-bottom-30">Duis
-											autem vel eum iriure dolor in hendrerit in vulputate velit
-											esse molestie consequat, vel illum dolore eu feugiat nulla
-											facilisis</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+	<div id="ms-preload" class="ms-preload">
+      <div id="status">
+        <div class="spinner">
+          <div class="dot1"></div>
+          <div class="dot2"></div>
+        </div>
+      </div>
+    </div>
 
-		<section id="content" style="display: none">
-			<div>Hola</div>
-		</section>
-
-		<!-- Section 1 -->
-		<section class="section background-white">
-			<div class="line">
-				<div class="margin">
-					<div class="s-12 m-12 l-4 margin-m-bottom">
-						<img class="margin-bottom" src="resources/img/img-01.jpg" alt="" />
-						<h2 class="text-thin">Clean Design</h2>
-						<p>Duis autem vel eum iriure dolor in hendrerit in vulputate
-							velit esse molestie consequat.</p>
-						<a class="text-more-info text-primary-hover" href="/">Read
-							more</a>
-					</div>
-					<div class="s-12 m-12 l-4 margin-m-bottom">
-						<img class="margin-bottom" src="resources/img/img-02.jpg" alt="" />
-						<h2 class="text-thin">Valid code</h2>
-						<p>Duis autem vel eum iriure dolor in hendrerit in vulputate
-							velit esse molestie consequat.</p>
-						<a class="text-more-info text-primary-hover" href="/">Read
-							more</a>
-					</div>
-					<div class="s-12 m-12 l-4 margin-m-bottom">
-						<img class="margin-bottom" src="resources/img/img-03.jpg" alt="" />
-						<h2 class="text-thin">Totally free</h2>
-						<p>Duis autem vel eum iriure dolor in hendrerit in vulputate
-							velit esse molestie consequat.</p>
-						<a class="text-more-info text-primary-hover" href="/">Read
-							more</a>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<!-- Section 2 -->
-		<section class="section background-primary text-center">
-			<div class="line">
-				<div class="s-12 m-10 l-8 center">
-					<h2 class="headline text-thin text-s-size-30">We are Web
-						Design Heroes</h2>
-					<p class="text-size-20">Duis autem vel eum iriure dolor in
-						hendrerit in vulputate velit esse molestie consequat, vel illum
-						dolore eu feugiat nulla facilisis</p>
-				</div>
-			</div>
-		</section>
-
-		<!-- Section 3 -->
-		<section class="section background-white">
-			<div class="full-width text-center">
-				<img class="center margin-bottom-30" style="margin-top: -210px;"
-					src="resources/img/bio.png" alt="" />
-				<div class="line">
-					<h2 class="headline text-thin text-s-size-30">
-						Fully <span class="text-primary">Responsive</span> HTML5 Template
-					</h2>
-					<p class="text-size-20 text-s-size-16 text-thin">Duis autem vel
-						eum iriure dolor in hendrerit in vulputate velit esse molestie
-						consequat, vel illum dolore eu feugiat nulla facilisis. Duis autem
-						vel eum iriure dolor in hendrerit in vulputate velit esse molestie
-						consequat, vel illum dolore eu feugiat nulla facilisis</p>
-					<i
-						class="icon-more_node_links icon2x text-primary margin-top-bottom-10"></i>
-					<p class="text-size-20 text-s-size-16 text-thin text-primary">Try
-						resize your browser window</p>
-				</div>
-			</div>
-		</section>
-		<hr class="break margin-top-bottom-0" />
-
-		<!-- Section 4 -->
-		<section class="section background-white">
-			<div class="line">
-				<h2
-					class="text-thin headline text-center text-s-size-30 margin-bottom-50">
-					From Our <span class="text-primary">Blog</span>
-				</h2>
-				<div class="carousel-default owl-carousel carousel-wide-arrows">
-					<div class="item">
-						<div class="margin">
-							<div class="s-12 m-12 l-6">
-								<div class="image-border-radius margin-m-bottom">
-									<div class="margin">
-										<div class="s-12 m-12 l-4 margin-m-bottom">
-											<a class="image-hover-zoom" href="/"><img
-												src="resources/img/blog-05.jpg" alt="" /></a>
-										</div>
-										<div class="s-12 m-12 l-8 margin-m-bottom">
-											<h3>
-												<a class="text-dark text-primary-hover" href="/">Lorem
-													Ipsum Dolor sit Amet</a>
-											</h3>
-											<p>Duis autem vel eum iriure dolor in hendrerit in
-												vulputate velit esse molestie consequat.</p>
-											<a class="text-more-info text-primary-hover" href="/">Read
-												more</a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="s-12 m-12 l-6">
-								<div class="image-border-radius">
-									<div class="margin">
-										<div class="s-12 m-12 l-4 margin-m-bottom">
-											<a class="image-hover-zoom" href="/"><img
-												src="resources/img/blog-03.jpg" alt="" /></a>
-										</div>
-										<div class="s-12 m-12 l-8">
-											<h3>
-												<a class="text-dark text-primary-hover" href="/">Lorem
-													Ipsum Dolor sit Amet</a>
-											</h3>
-											<p>Duis autem vel eum iriure dolor in hendrerit in
-												vulputate velit esse molestie consequat.</p>
-											<a class="text-more-info text-primary-hover" href="/">Read
-												more</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="margin">
-							<div class="s-12 m-12 l-6">
-								<div class="image-border-radius margin-m-bottom">
-									<div class="margin">
-										<div class="s-12 m-12 l-4 margin-m-bottom">
-											<a class="image-hover-zoom" href="/"><img
-												src="resources/img/blog-04.jpg" alt="" /></a>
-										</div>
-										<div class="s-12 m-12 l-8 margin-m-bottom">
-											<h3>
-												<a class="text-dark text-primary-hover" href="/">Lorem
-													Ipsum Dolor sit Amet</a>
-											</h3>
-											<p>Duis autem vel eum iriure dolor in hendrerit in
-												vulputate velit esse molestie consequat.</p>
-											<a class="text-more-info text-primary-hover" href="/">Read
-												more</a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="s-12 m-12 l-6">
-								<div class="image-border-radius">
-									<div class="margin">
-										<div class="s-12 m-12 l-4 margin-m-bottom">
-											<a class="image-hover-zoom" href="/"><img
-												src="resources/img/blog-02.jpg" alt="" /></a>
-										</div>
-										<div class="s-12 m-12 l-8">
-											<h3>
-												<a class="text-dark text-primary-hover" href="/">Lorem
-													Ipsum Dolor sit Amet</a>
-											</h3>
-											<p>Duis autem vel eum iriure dolor in hendrerit in
-												vulputate velit esse molestie consequat.</p>
-											<a class="text-more-info text-primary-hover" href="/">Read
-												more</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="margin">
-							<div class="s-12 m-12 l-6">
-								<div class="image-border-radius margin-m-bottom">
-									<div class="margin">
-										<div class="s-12 m-12 l-4 margin-m-bottom">
-											<a class="image-hover-zoom" href="/"><img
-												src="resources/img/blog-01.jpg" alt="" /></a>
-										</div>
-										<div class="s-12 m-12 l-8 margin-m-bottom">
-											<h3>
-												<a class="text-dark text-primary-hover" href="/">Lorem
-													Ipsum Dolor sit Amet</a>
-											</h3>
-											<p>Duis autem vel eum iriure dolor in hendrerit in
-												vulputate velit esse molestie consequat.</p>
-											<a class="text-more-info text-primary-hover" href="/">Read
-												more</a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="s-12 m-12 l-6">
-								<div class="image-border-radius">
-									<div class="margin">
-										<div class="s-12 m-12 l-4 margin-m-bottom">
-											<a class="image-hover-zoom" href="/"><img
-												src="resources/img/blog-06.jpg" alt="" /></a>
-										</div>
-										<div class="s-12 m-12 l-8">
-											<h3>
-												<a class="text-dark text-primary-hover" href="/">Lorem
-													Ipsum Dolor sit Amet</a>
-											</h3>
-											<p>Duis autem vel eum iriure dolor in hendrerit in
-												vulputate velit esse molestie consequat.</p>
-											<a class="text-more-info text-primary-hover" href="/">Read
-												more</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		</main>
+		 <div class="ms-hero ms-hero-material">
+        <span class="ms-hero-bg"></span>
+        <div class="container">
+          <div class="col-lg-6 col-md-7">
+            <div id="carousel-hero" class="carousel slide carousel-fade" data-ride="carousel" data-interval="8000">
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <div class="carousel-caption">
+                    <div class="ms-hero-material-text-container">
+                      <header class="ms-hero-material-title animated slideInLeft animation-delay-5">
+                        <h1 class="animated fadeInLeft animation-delay-15 font-smoothing">The
+                          <strong>power design</strong> amazing projects</h1>
+                        <h2 class="animated fadeInLeft animation-delay-18">The most customizable
+                          <span class="color-warning">material design</span> template.</h2>
+                      </header>
+                      <ul class="ms-hero-material-list">
+                        <li class="">
+                          <div class="ms-list-icon animated zoomInUp animation-delay-18">
+                            <span class="ms-icon ms-icon-circle ms-icon-xlg color-warning shadow-3dp">
+                              <i class="zmdi zmdi-airplane"></i>
+                            </span>
+                          </div>
+                          <div class="ms-list-text animated fadeInRight animation-delay-19">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, fugit sit nesciunt cum rerum iusto.</div>
+                        </li>
+                        <li class="">
+                          <div class="ms-list-icon animated zoomInUp animation-delay-20">
+                            <span class="ms-icon ms-icon-circle ms-icon-xlg color-success shadow-3dp">
+                              <i class="zmdi zmdi-bike"></i>
+                            </span>
+                          </div>
+                          <div class="ms-list-text animated fadeInRight animation-delay-21">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi laborum dignissimos fuga maxime facere.</div>
+                        </li>
+                        <li class="">
+                          <div class="ms-list-icon animated zoomInUp animation-delay-22">
+                            <span class="ms-icon ms-icon-circle ms-icon-xlg color-danger shadow-3dp">
+                              <i class="zmdi zmdi-album"></i>
+                            </span>
+                          </div>
+                          <div class="ms-list-text animated fadeInRight animation-delay-23">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit sequi est repudianda.</div>
+                        </li>
+                      </ul>
+                      <div class="ms-hero-material-buttons text-right">
+                        <div class="ms-hero-material-buttons text-right">
+                          <a href="javascript:void(0);" class="btn btn-warning btn-raised animated fadeInLeft animation-delay-24 mr-2">
+                            <i class="zmdi zmdi-settings"></i> Personalize</a>
+                          <a href="javascript:void(0);" class="btn btn-success btn-raised animated fadeInRight animation-delay-24">
+                            <i class="zmdi zmdi-download"></i> Download</a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- ms-hero-material-text-container -->
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="carousel-caption">
+                    <div class="ms-hero-material-text-container">
+                      <header class="ms-hero-material-title animated slideInLeft animation-delay-5">
+                        <h1 class="animated fadeInLeft animation-delay-15">A template with
+                          <strong>infinite</strong> possibilities</h1>
+                        <h2 class="animated fadeInLeft animation-delay-18">Unlimited combinations to create
+                          <span class="color-warning">unique designs</span> .</h2>
+                      </header>
+                      <ul class="ms-hero-material-list">
+                        <li class="">
+                          <div class="ms-list-icon animated zoomInUp animation-delay-18">
+                            <span class="ms-icon ms-icon-circle ms-icon-xlg color-info shadow-3dp">
+                              <i class="zmdi zmdi-city"></i>
+                            </span>
+                          </div>
+                          <div class="ms-list-text animated fadeInRight animation-delay-19">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, fugit sit nesciunt cum rerum iusto.</div>
+                        </li>
+                        <li class="">
+                          <div class="ms-list-icon animated zoomInUp animation-delay-20">
+                            <span class="ms-icon ms-icon-circle ms-icon-xlg color-royal shadow-3dp">
+                              <i class="zmdi zmdi-cake"></i>
+                            </span>
+                          </div>
+                          <div class="ms-list-text animated fadeInRight animation-delay-21">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi laborum dignissimos fuga maxime facere.</div>
+                        </li>
+                        <li class="">
+                          <div class="ms-list-icon animated zoomInUp animation-delay-22">
+                            <span class="ms-icon ms-icon-circle ms-icon-xlg color-warning shadow-3dp">
+                              <i class="zmdi zmdi-coffee"></i>
+                            </span>
+                          </div>
+                          <div class="ms-list-text animated fadeInRight animation-delay-23">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit sequi est repudianda.</div>
+                        </li>
+                      </ul>
+                      <div class="ms-hero-material-buttons text-right">
+                        <div class="ms-hero-material-buttons text-right">
+                          <a href="javascript:void(0);" class="btn btn-warning btn-raised animated fadeInLeft animation-delay-24 mr-2">
+                            <i class="zmdi zmdi-settings"></i> Personalize</a>
+                          <a href="javascript:void(0);" class="btn btn-success btn-raised animated fadeInRight animation-delay-24">
+                            <i class="zmdi zmdi-download"></i> Download</a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- ms-hero-material-text-container -->
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="carousel-caption">
+                    <div class="ms-hero-material-text-container">
+                      <header class="ms-hero-material-title animated slideInLeft animation-delay-5">
+                        <h1 class="animated fadeInLeft animation-delay-15">Commitment of
+                          <strong>monthly updates</strong>.</h1>
+                        <h2 class="animated fadeInLeft animation-delay-18">There will soon be a version for
+                          <span class="color-warning">Bootstrap 4</span>.</h2>
+                      </header>
+                      <ul class="ms-hero-material-list">
+                        <li class="">
+                          <div class="ms-list-icon animated zoomInUp animation-delay-18">
+                            <span class="ms-icon ms-icon-circle ms-icon-xlg color-danger shadow-3dp">
+                              <i class="zmdi zmdi-cutlery"></i>
+                            </span>
+                          </div>
+                          <div class="ms-list-text animated fadeInRight animation-delay-19">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, fugit sit nesciunt cum rerum iusto.</div>
+                        </li>
+                        <li class="">
+                          <div class="ms-list-icon animated zoomInUp animation-delay-20">
+                            <span class="ms-icon ms-icon-circle ms-icon-xlg color-info shadow-3dp">
+                              <i class="zmdi zmdi-dns"></i>
+                            </span>
+                          </div>
+                          <div class="ms-list-text animated fadeInRight animation-delay-21">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi laborum dignissimos fuga maxime facere.</div>
+                        </li>
+                        <li class="">
+                          <div class="ms-list-icon animated zoomInUp animation-delay-22">
+                            <span class="ms-icon ms-icon-circle ms-icon-xlg color-success shadow-3dp">
+                              <i class="zmdi zmdi-compass"></i>
+                            </span>
+                          </div>
+                          <div class="ms-list-text animated fadeInRight animation-delay-23">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit sequi est repudianda.</div>
+                        </li>
+                      </ul>
+                      <div class="ms-hero-material-buttons text-right">
+                        <a href="javascript:void(0);" class="btn btn-warning btn-raised animated fadeInLeft animation-delay-24 mr-2">
+                          <i class="zmdi zmdi-settings"></i> Personalize</a>
+                        <a href="javascript:void(0);" class="btn btn-success btn-raised animated fadeInRight animation-delay-24">
+                          <i class="zmdi zmdi-download"></i> Download</a>
+                      </div>
+                    </div>
+                    <!-- ms-hero-material-text-container -->
+                  </div>
+                </div>
+                <div class="carousel-controls">
+                  <!-- Controls -->
+                  <a class="left carousel-control animated zoomIn animation-delay-30" href="#carousel-hero" role="button" data-slide="prev">
+                    <i class="zmdi zmdi-chevron-left"></i>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control animated zoomIn animation-delay-30" href="#carousel-hero" role="button" data-slide="next">
+                    <i class="zmdi zmdi-chevron-right"></i>
+                    <span class="sr-only">Next</span>
+                  </a>
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#carousel-hero" data-slide-to="0" class="animated fadeInUpBig animation-delay-27 active"></li>
+                    <li data-target="#carousel-hero" data-slide-to="1" class="animated fadeInUpBig animation-delay-28"></li>
+                    <li data-target="#carousel-hero" data-slide-to="2" class="animated fadeInUpBig animation-delay-29"></li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-5">
+            <div class="ms-hero-img animated zoomInUp animation-delay-30">
+              <img src="assets/img/demo/mock-imac-material2.png" alt="" class="img-responsive"/>
+              <div id="carousel-hero-img" class="carousel carousel-fade slide" data-ride="carousel" data-interval="3000">
+                <!-- Indicators -->
+                <ol class="carousel-indicators carousel-indicators-hero-img">
+                  <li data-target="#carousel-hero-img" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel-hero-img" data-slide-to="1"></li>
+                  <li data-target="#carousel-hero-img" data-slide-to="2"></li>
+                </ol>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                  <div class="ms-hero-img-slider item active">
+                    <img src="assets/img/demo/hero1.png" alt="" class="img-responsive"/> </div>
+                  <div class="ms-hero-img-slider item">
+                    <img src="assets/img/demo/hero3.png" alt="" class="img-responsive"/> </div>
+                  <div class="ms-hero-img-slider item">
+                    <img src="assets/img/demo/hero2.png" alt="" class="img-responsive"/> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- container -->
+      </div>
 
 
-		<h:form prependId="false" id="form">
-
-			<h:outputLink value="javascript:void(0)" onclick="PF('dlg').show();"
-				title="login">Login
-<!-- 				<p:graphicImage name="/demo/images/login.png" /> -->
-			</h:outputLink>
-
-			<!-- 			<p:growl id="growl" sticky="true" showDetail="true" life="3000" /> -->
-			<p:messages id="growl" showDetail="true" autoUpdate="true"
-				closable="true" />
-
-			<p:dialog header="Login" widgetVar="dlg" resizable="false">
-				<h:panelGrid columns="2" cellpadding="5">
-					<h:outputLabel for="username" value="Username:" />
-					<p:inputText id="username" value="#{userLoginView.username}"
-						required="true" label="username" />
-
-					<h:outputLabel for="password" value="Password:" />
-					<p:password id="password" value="#{userLoginView.password}"
-						required="true" label="password" />
-
-
-					<p:commandButton value="Login" update="growl"
-						actionListener="#{userLoginView.login}"
-						oncomplete="handleLoginRequest(xhr, status, args)" />
-
-				</h:panelGrid>
-			</p:dialog>
-		</h:form>
 
 
 	</ui:define>
 
 </ui:composition>
-<script type="text/javascript">
-	function handleLoginRequest(xhr, status, args) {
-		if (args.validationFailed || !args.loggedIn) {
-			PF('dlg').jq.effect("shake", {
-				times : 5
-			}, 100);
-		} else {
-			PF('dlg').hide();
-			$('#loginLink').fadeOut();
-		}
-	}
-</script>
+
 </html>
