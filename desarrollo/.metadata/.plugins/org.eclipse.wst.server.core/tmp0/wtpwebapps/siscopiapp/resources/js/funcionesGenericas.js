@@ -17,6 +17,13 @@ function fechaActual(){
 	return fh;
 }
 
+//function ponerFechaActual(){
+//	var f = new Date();
+//	 var fh= f.getDate()+"/"+(f.getMonth() +1)+"/"+f.getFullYear();
+//	 
+//	 document.getElementById("fechahoy").innerHTML = fh;
+//}
+
 
 function siguiente(opcion){
 	
@@ -63,28 +70,28 @@ function cargaHoras(){
 }
 $(function() {
 	$("#fechahoy").text(fechaActual());
-	$( "#confirma" ).dialog({
-			autoOpen: false,
-			width: 'auto', // overcomes width:'auto' and maxWidth bug
-			maxWidth: 600,
-			height: 'auto',
-			modal: true,
-			fluid: true, //new option
-			resizable: false,
-			buttons : [
-			{
-				text  : 'Aceptar', 
-                click : function() {
-                             $(this).dialog('close')
-							 $("#modifU").dialog('close')
-                         }, 
-                class: 'button-acepta'
-            }
-			],
-			create:function () {
-				$(this).closest(".ui-dialog").find(".ui-button:first").addClass("acepta");
-				}
-	});
+//	$( "#confirma" ).dialog({
+//			autoOpen: false,
+//			width: 'auto', // overcomes width:'auto' and maxWidth bug
+//			maxWidth: 600,
+//			height: 'auto',
+//			modal: true,
+//			fluid: true, //new option
+//			resizable: false,
+//			buttons : [
+//			{
+//				text  : 'Aceptar', 
+//                click : function() {
+//                             $(this).dialog('close')
+//							 $("#modifU").dialog('close')
+//                         }, 
+//                class: 'button-acepta'
+//            }
+//			],
+//			create:function () {
+//				$(this).closest(".ui-dialog").find(".ui-button:first").addClass("acepta");
+//				}
+//	});
 
 //resize dialog
 
