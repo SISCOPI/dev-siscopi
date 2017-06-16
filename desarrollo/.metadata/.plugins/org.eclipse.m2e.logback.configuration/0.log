@@ -1,0 +1,44 @@
+2017-06-13 21:21:24,836 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.reor:app01:0.0.1-SNAPSHOT @ C:\Users\riveraju\Documents\GitHub\dev-siscopi\desarrollo\app01\META-INF\maven\com.reor\app01\pom.xml.
+2017-06-13 21:21:24,836 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.siscopi:siscopiapp:0.0.1-SNAPSHOT @ C:\Users\riveraju\Documents\GitHub\dev-siscopi\desarrollo\siscopiapp\pom.xml.
+2017-06-13 21:21:28,628 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-13 21:21:28,636 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\riveraju\Documents\GitHub\dev-siscopi\desarrollo\app01\META-INF\maven\com.reor\app01\src\main\resources
+2017-06-13 21:21:28,639 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-13 21:21:28,647 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\riveraju\Documents\GitHub\dev-siscopi\desarrollo\app01\META-INF\maven\com.reor\app01\src\test\resources
+2017-06-13 21:21:29,813 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.siscopi:siscopiapp:0.0.1-SNAPSHOT @ C:\Users\riveraju\Documents\GitHub\dev-siscopi\desarrollo\siscopiapp\pom.xml.
+2017-06-13 21:21:30,261 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-13 21:21:30,276 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-13 21:21:30,294 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-13 21:21:30,301 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\riveraju\Documents\GitHub\dev-siscopi\desarrollo\siscopiapp\src\test\resources
+2017-06-13 21:21:31,229 [Worker-10] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.siscopi:siscopiapp:0.0.1-SNAPSHOT @ C:\Users\riveraju\Documents\GitHub\dev-siscopi\desarrollo\siscopiapp\pom.xml.
+2017-06-13 21:22:17,300 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-13 21:22:17,385 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\riveraju\Documents\GitHub\dev-siscopi\desarrollo\app01\META-INF\maven\com.reor\app01\src\main\resources
+2017-06-13 21:22:17,387 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-13 21:22:17,409 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\riveraju\Documents\GitHub\dev-siscopi\desarrollo\app01\META-INF\maven\com.reor\app01\src\test\resources
+2017-06-13 21:22:18,422 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-13 21:22:18,438 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-13 21:22:18,458 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-13 21:22:18,466 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\riveraju\Documents\GitHub\dev-siscopi\desarrollo\siscopiapp\src\test\resources
+2017-06-13 21:22:58,218 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-13 21:22:58,235 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\riveraju\Documents\GitHub\dev-siscopi\desarrollo\app01\META-INF\maven\com.reor\app01\src\main\resources
+2017-06-13 21:22:58,237 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-13 21:22:58,251 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\riveraju\Documents\GitHub\dev-siscopi\desarrollo\app01\META-INF\maven\com.reor\app01\src\test\resources
+2017-06-13 21:22:58,263 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-13 21:22:58,273 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-13 21:22:58,275 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-13 21:22:58,285 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\riveraju\Documents\GitHub\dev-siscopi\desarrollo\siscopiapp\src\test\resources
+2017-06-13 21:23:27,221 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-13 21:23:27,235 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\riveraju\Documents\GitHub\dev-siscopi\desarrollo\app01\META-INF\maven\com.reor\app01\src\main\resources
+2017-06-13 21:23:27,238 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-13 21:23:27,246 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\riveraju\Documents\GitHub\dev-siscopi\desarrollo\app01\META-INF\maven\com.reor\app01\src\test\resources
+2017-06-13 21:23:27,547 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-13 21:23:27,571 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-13 21:23:27,578 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-13 21:23:27,585 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\riveraju\Documents\GitHub\dev-siscopi\desarrollo\siscopiapp\src\test\resources
+2017-06-13 21:23:53,315 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-13 21:23:53,330 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\riveraju\Documents\GitHub\dev-siscopi\desarrollo\app01\META-INF\maven\com.reor\app01\src\main\resources
+2017-06-13 21:23:53,332 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-13 21:23:53,340 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\riveraju\Documents\GitHub\dev-siscopi\desarrollo\app01\META-INF\maven\com.reor\app01\src\test\resources
+2017-06-13 21:23:53,652 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-13 21:23:53,671 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-13 21:23:53,679 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-13 21:23:53,688 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\riveraju\Documents\GitHub\dev-siscopi\desarrollo\siscopiapp\src\test\resources
