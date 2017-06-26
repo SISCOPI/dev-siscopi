@@ -27,6 +27,14 @@
             <from-outcome>registropro</from-outcome>
             <to-view-id>/general/propuestas/propuestasNoRegistrado.xhtml</to-view-id>
         </navigation-case>
+        <navigation-case>
+            <from-outcome>contac</from-outcome>
+            <to-view-id>/contacto.xhtml</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>acerca</from-outcome>
+            <to-view-id>/acercade.xhtml</to-view-id>
+        </navigation-case>
 
     </navigation-rule>
 
