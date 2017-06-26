@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml"
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
 	xmlns:h="http://java.sun.com/jsf/html"
 	xmlns:p="http://primefaces.org/ui"
 	xmlns:ui="http://java.sun.com/jsf/facelets"
-	xmlns:composite="http://java.sun.com/jsf/composite">
+	xmlns:composite="http://java.sun.com/jsf/composite"
+	template="/WEB-INF/facelets/templates/defaultTemplate.xhtml">
 
 <head></head>
 <body>
-<ui:composition
-	template="/WEB-INF/facelets/templates/defaultTemplate.xhtml">
+
 	
 
 	<ui:define name="content">
@@ -172,9 +172,8 @@
 
 	</ui:define>
 
-</ui:composition>
 <script>
 	alert("banco");
 </script>
 </body>
-</html>
+</ui:composition>

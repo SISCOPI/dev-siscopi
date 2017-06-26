@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml"
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
 	xmlns:h="http://java.sun.com/jsf/html"
 	xmlns:p="http://primefaces.org/ui"
 	xmlns:ui="http://java.sun.com/jsf/facelets"
@@ -19,7 +19,7 @@
 <!-- 			<f:ajax render=":contenido"> -->
 				<ul class="nav navbar-nav">
 					<li class="dropdown active">
-						<h:commandLink action="#{menu.navega}"
+						<h:commandLink action="inicio"
 							class="dropdown-toggle animated fadeIn animation-delay-4"
 							data-toggle="dropdown" data-hover="dropdown" data-name="home">Inicio
 <!-- 							<f:setPropertyActionListener target="#{menu.itemBean}" value="index" /> -->
@@ -38,14 +38,14 @@
 						<ul
 							class="dropdown-menu dropdown-menu-left animated-2x animated fadeIn">
 							<li class="dropdown-submenu">
-								<h:commandLink action="general/propuestas/bancoPropuestas.xhtml">Banco
+								<h:commandLink action="bancopro">Banco
 <!-- 									<f:param id="itemBean2" name="item" value="/general/propuestas/bancoPropuestas"/> -->
 <!-- 									<f:setPropertyActionListener target="#{menu.itemBean}" value="general/propuestas/bancoPropuestas" /> -->
 								</h:commandLink>
 
 							</li>
 							<li class="dropdown-submenu">
-							<h:commandLink action="general/propuestas/propuestasNoRegistrado.xhtml">Registro</h:commandLink>
+							<h:commandLink action="registropro">Registro</h:commandLink>
 							</li>
 
 						</ul>
@@ -64,4 +64,4 @@
 		<!-- container -->
 	</nav>
 </h:form>
-</html>
+</ui:composition>
