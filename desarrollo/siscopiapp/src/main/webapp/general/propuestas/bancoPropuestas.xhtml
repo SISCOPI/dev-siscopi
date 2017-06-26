@@ -2,20 +2,24 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
 	xmlns:h="http://java.sun.com/jsf/html"
 	xmlns:p="http://primefaces.org/ui"
-	xmlns:ui="http://java.sun.com/jsf/facelets">
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:composite="http://java.sun.com/jsf/composite">
 
+<head></head>
+<body>
 <ui:composition
 	template="/WEB-INF/facelets/templates/defaultTemplate.xhtml">
+	
 
 	<ui:define name="content">
-		<div id="ms-preload" class="ms-preload">
-			<div id="status">
-				<div class="spinner">
-					<div class="dot1"></div>
-					<div class="dot2"></div>
-				</div>
-			</div>
-		</div>
+<!-- 		<div id="ms-preload" class="ms-preload"> -->
+<!-- 			<div id="status"> -->
+<!-- 				<div class="spinner"> -->
+<!-- 					<div class="dot1"></div> -->
+<!-- 					<div class="dot2"></div> -->
+<!-- 				</div> -->
+<!-- 			</div> -->
+<!-- 		</div> -->
 
 		<div class="ms-hero-page-override ms-hero-img-team ms-hero-bg-royal">
 			<div class="container">
@@ -169,5 +173,8 @@
 	</ui:define>
 
 </ui:composition>
-
+<script>
+	alert("banco");
+</script>
+</body>
 </html>

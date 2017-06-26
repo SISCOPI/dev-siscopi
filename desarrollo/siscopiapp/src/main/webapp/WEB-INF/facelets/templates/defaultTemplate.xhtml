@@ -45,10 +45,12 @@
 			</div>
 		</div>
 		
-		<div id="Content">
-			<ui:insert name="content">
-				<span>en construcción</span>
-			</ui:insert>
+		<div id="body-container">
+			<h:panelGroup id="contenido">
+				<ui:insert name="content">
+					<ui:include src="content.xhtml" />
+				</ui:insert>
+			</h:panelGroup>
 		</div>
 		<div id="footer-container">
 			<div id="footer">
