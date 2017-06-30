@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	template="/WEB-INF/facelets/templates/defaultTemplate.xhtml">
+
+
+	<ui:define name="content">
+<!-- 		<div id="ms-preload" class="ms-preload"> -->
+<!-- 			<div id="status"> -->
+<!-- 				<div class="spinner"> -->
+<!-- 					<div class="dot1"></div> -->
+<!-- 					<div class="dot2"></div> -->
+<!-- 				</div> -->
+<!-- 			</div> -->
+<!-- 		</div> -->
+
+
+		<div class="container">
+			<div class="">
+				<h:form class="" action="">
+					<h2 class="">Fecha solicitud:</h2>
+
+					<label id="fechahoy" class=""></label>
+
+					<h2 class="">Aspectos Generales</h2>
+
+
+					<h2 class="">Detalle del proyecto</h2>
+
+
+				</h:form>
+			</div>
+
+
+		</div>
+		<div class="container">
+			<div class="row">
+
+				<div class="card card-primary animated fadeInUp animation-delay-7">
+					<div class="ms-hero-bg-primary ms-hero-img-mountain">
+						<h2 class="text-center no-m pt-4 pb-4 color-white index-1">Nueva
+							Propuesta</h2>
+					</div>
+					<div class="card-block">
+						<h:form class="form-horizontal">
+							<fieldset>
+								<div class="form-group">
+									<label for="inputName" class="col-md-2 control-label">Name</label>
+									<div class="col-md-9">
+										<input type="text" class="form-control" id="inputName"
+											placeholder="Name" />
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="inputEmail" class="col-md-2 control-label">Email</label>
+									<div class="col-md-9">
+										<input type="email" class="form-control" id="inputEmail"
+											placeholder="Email" />
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="inputSubject" class="col-md-2 control-label">Subject</label>
+									<div class="col-md-9">
+										<input type="text" class="form-control" id="inputSubject"
+											placeholder="Subject" />
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="textArea" class="col-md-2 control-label">Message</label>
+									<div class="col-md-9">
+										<textarea class="form-control" rows="5" id="textArea"
+											placeholder="Your message..."></textarea>
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="col-md-9 col-md-offset-2">
+										<button type="submit" class="btn btn-raised btn-primary">Submit</button>
+										<button type="button" class="btn btn-danger">Cancel</button>
+									</div>
+								</div>
+							</fieldset>
+						</h:form>
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+		<!-- container -->
+
+	</ui:define>
+
+
+
+</ui:composition>

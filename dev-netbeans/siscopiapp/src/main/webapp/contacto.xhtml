@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+<head></head>
+<body>
+<ui:composition
+	template="/WEB-INF/facelets/templates/defaultTemplate.xhtml">
+<!-- 	<ui:define name="title"> -->
+<!-- 		<h:outputText value="index" /> -->
+<!-- 	</ui:define> -->
+
+	<ui:define name="content">
+<!-- 	<div id="ms-preload" class="ms-preload"> -->
+<!--       <div id="status"> -->
+<!--         <div class="spinner"> -->
+<!--           <div class="dot1"></div> -->
+<!--           <div class="dot2"></div> -->
+<!--         </div> -->
+<!--       </div> -->
+<!--     </div> -->
+ 
+<!-- build:include layout/header.html --><!-- /build -->
+
+<div class="ms-hero-page-override ms-hero-img-team ms-hero-bg-primary">
+    <div class="container">
+        <div class="text-center">
+            <h1 class="no-m ms-site-title color-white center-block ms-site-title-lg mt-2 animated zoomInDown animation-delay-5">Contactanos</h1>
+            <p class="lead lead-lg color-light text-center center-block mt-2 mw-800 text-uppercase fw-300 animated fadeInUp animation-delay-7">¿Tiene alguna duda respecto al contenido? <br>Deje sus datos y pronto le responderemos.</br></p>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="card card-hero animated fadeInUp animation-delay-7">
+        <div class="card-block">
+            <form class="form-horizontal">
+                <fieldset>
+                    <div class="form-group">
+                        <label for="inputName" class="col-md-2 control-label">Nombre</label>
+                        <div class="col-md-9">
+                            <input type="text" class="form-control" id="inputName" placeholder="Nombre"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail" class="col-md-2 control-label">Email</label>
+                        <div class="col-md-9">
+                            <input type="email" class="form-control" id="inputEmail" placeholder="Email"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputSubject" class="col-md-2 control-label">Asunto</label>
+                        <div class="col-md-9">
+                            <input type="text" class="form-control" id="inputSubject" placeholder="Asunto"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="textArea" class="col-md-2 control-label">Mensaje</label>
+                        <div class="col-md-9">
+                            <textarea class="form-control" rows="5" id="textArea" placeholder="Tu mensaje..."></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-9 col-md-offset-2">
+                            <button type="submit" class="btn btn-raised btn-primary">Enviar</button>
+                            <button type="button" class="btn btn-danger">Cancelar</button>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    <div class="card card-primary">
+        <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-5">
+                <div class="card-block wow fadeInUp">
+                    <div class="mb-2">
+                        <span class="ms-logo ms-logo-sm mr-1">S</span>
+                        <h3 class="no-m ms-site-title"><span>Siscopi</span></h3>
+                    </div>
+                    <address class="no-mb">
+                        <p><i class="color-danger-light zmdi zmdi-pin mr-1"></i> 795 Folsom Ave, Suite 600</p>
+                        <p><i class="color-warning-light zmdi zmdi-map mr-1"></i> San Francisco, CA 94107</p>
+                        <p><i class="color-info-light zmdi zmdi-email mr-1"></i> <a href="mailto:joe@example.com">example@domain.com</a></p>
+                        <p><i class="color-royal-light zmdi zmdi-phone mr-1"></i>+34 123 456 7890 </p>
+                        <p><i class="color-success-light fa fa-fax mr-1"></i>+34 123 456 7890 </p>
+                    </address>
+                </div>
+            </div>
+            <div class="col-lg-9 col-md-8 col-sm-7">
+<!--                 <iframe width="100%" height="340" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48342.06480344582!2d-73.980069429762!3d40.775680208459505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2589a018531e3%3A0xb9df1f7387a94119!2sCentral+Park!5e0!3m2!1sen!2sus!4v1491233314840"></iframe> -->
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2663.3919105065916!2d-99.5806826548342!3d19.256040854250436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbb4047c2408654b9!2sInstituto+Tecnol%C3%B3gico+de+Toluca!5e0!3m2!1ses-419!2smx!4v1498516372043" width="600" height="450"  style="border:0"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- build:include layout/footer.html --><!-- /build -->
+
+
+
+
+
+	</ui:define>
+
+</ui:composition>
+</body>
+</html>
